@@ -1,0 +1,8 @@
+<view class="index">
+  <view class="index-hd">
+    <view class="index-desc">首造</view>
+  </view>
+  <view class="index-bd">
+
+  </view>
+</view>

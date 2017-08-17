@@ -1,0 +1,70 @@
+<view bindtouchend="pullListEnd" bindtouchstart="pullListStart" id="ListBody">
+    <view class="main-top">
+        <view class="main-top-left">
+         
+            <view class="left-top" bindtap="showMsg" data-id = "{{item1.id}}">
+         
+                <view class="container-item-img">
+                  <image style="width:250px;" src = "http://www.citgroup.cn/{{item1.logo}}"></image>
+                </view>
+
+                <view class="container-item-text">{{item1.title}}</view>
+         
+            </view>
+         
+         
+            <view class="left-bottom" bindtap="showMsg" data-id = "{{item2.id}}">
+         
+                <view class="container-item-img">
+                  <image style="width:250px;" src = "http://www.citgroup.cn/{{item2.logo}}"></image>
+                </view>
+                <view class="container-item-text">{{item2.title}}</view>
+         
+            </view>
+          
+        
+         
+        </view>
+        <view class="main-top-right">
+         
+            <view class="right-top" bindtap="showMsg" data-id = "{{item3.id}}">
+         
+                <view class="container-item-img">
+                    <image style="width:250px;" src = "http://www.citgroup.cn/{{item3.logo}}"></image>
+                </view>
+                <view class="container-item-text">{{item3.title}}</view>\
+         
+            </view>
+            
+            
+            <view class="right-bottom" bindtap="showMsg" data-id = "{{item4.id}}">
+         
+                <view class="container-item-img">
+                  <image style="width:250px;" src = "http://www.citgroup.cn/{{item4.logo}}"></image>
+                </view>
+                <view class="container-item-text">{{item4.title}}</view>
+         
+            </view>
+             
+        </view>
+    </view>
+    <view class="main-bottom">
+            <view class="main-container">
+              <block wx:for = "{{items}}">
+         
+                  <view class="item-list" bindtap="showMsg" data-articleId = '{{item.id}}'>
+                      <view class="container-item-img">
+                          <image class = "bigImgShow" src = "http://citgroup.cn/{{item.logo}}" style="width:100%">
+
+                          </image>
+                          <view class="container-item-text">
+                            {{item.title}}
+                          </view>
+                      </view>
+                    </view>
+         
+                </block>
+            </view>
+    </view>
+    <view class="getMore">{{getMore ?  "下拉获取更多" : "已加载全部"}}</view>
+</view>

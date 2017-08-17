@@ -1,0 +1,55 @@
+<view id="home-body" style='height: 100%;'>
+    <view style="position: fixed;width:100%;height:100%;z-index:999;display: none" id = "ImgZoomInImage" >
+        <view  style="position: absolute;background: rgba(0,0,0,0.5);width:100%;height:100%;top:0;left:0;"></view>
+    </view>
+    <view class="company-main">
+         <view class="company-top" style='background-image:url("http://m.citgroup.cn/images/company/computer.jpg");background-repeat: no-repeat;background-size: cover;background-position: center 0'>
+             <view class="company-text" >
+                 <view class="h1">公司简介</view>
+                 <view class="xian"></view>
+                 <view class="paragraph" mode="wrap">中智游(北京)科技有限公司（2016年4月由北京巅峰智慧旅游科技有限公司更名）是中国智慧旅游领军企业，致力于利用先进的技术和互联网理念，推动中国“旅游+”与 “互联网+”的融合发展.公司业务包括“智慧旅游规划与顾问+智慧旅游研发与建设+智慧旅游投资与运营+目的地智慧营销”四大业务板块，为旅游主管部门、景区、涉旅企业提供包括智慧旅游规划与设计，智慧旅游系统研发与建设，智慧旅游平台投资与运营、旅游目的地智慧运营、旅游目的地智慧营销等全程智慧旅游服务。</view>
+             </view>
+
+
+         </view>
+         <view class="company-aboutUs">
+             <view class="us about h2"><view class="spanBig">关于我们</view><view class="span"> ABOUT US</view> </view>
+             <view mode="wrap" class='paragraph2'>公司首席架构师由国内知名旅游专家、国家智慧旅游顾问蒋骏担任。作为中国智慧旅游产业联盟秘书长、微软公司认证高级架构设计师，蒋骏兼任多家旅游地产集团(绿城中国(03900.HK)、大港旺宝等)战略管理顾问。主持编写《北京市智慧景区建设规范》、《天津市智慧景区建设规范》，是多个城市智慧旅游顾问。曾任用友软件集团助理总裁，具有15年流程再造和信息化实施经验，负责过多项大型工业园区及智慧旅游营运服务项目，具备专业的智慧旅游建设能力及丰富的智慧旅游全程服务经验。</view>
+         </view>
+         <view class="company-boss">
+                 <image src="http://m.citgroup.cn/images/company/person.jpg" class="JTimg"></image>
+                 <view class="us h2 jtgg"><view class="spanBig">集团高管</view><view class="span"> EXECUTIVES</view> </view>
+                 <view class='paragraph2' >蒋骏先生现任：中智游集团首席架构师、中国智慧旅游产业联盟秘书长、中国信息协会电子政务专业委员会专家委员、北京市旅游信息化专家咨询委会专家委员、中国房地产业协会经营管理专业委员会副主任、国家智慧旅游公共服务平台高级顾问、绿城中国(03900.HK)特聘管理顾问、中国科学院工学硕士、中欧国际工商学院EMBA、清华大学工学/法学双学士、微软公司认证高级架构设计师。</view>
+         </view>
+
+
+
+         <view class="company-contactUs clearfix" >
+             <view class="us h2 contact"><view class="spanBig">联系我们</view>  <view class="span">CONTACT US</view></view>
+
+           <view class="picture clearfix" style="position: relative">
+               <view class="address">
+                   <view class="h3">中智游(北京)科技有限公司</view>
+                   <view class="h4">地址：北京市东城区建国门内大街7号光华长安大厦第2座8层</view>
+                   <image class="tel" src="http://m.citgroup.cn/images/company/tel.png"></image>
+               </view>
+               <image class="ditu " id="imgTest" src="http://m.citgroup.cn/images/company/ditu.png" width="40%" height="100%" ></image>
+
+               <image id = "AnimaitImg" src="http://m.citgroup.cn/images/company/ditu.png"  style="transition:all 0.3s ease;cursor:pointer;position:absolute;right:15px;bottom:40px; z-index:10001;width:0%; "></image>
+
+           </view>
+
+
+         </view>
+         <view class="company-research clearfix">
+             <view class="yfaddress">
+                 <view class="us h2" >成都研发中心</view>
+                 <view class = "h4">地址：成都市武侯区一环路南二段6号附1号龙信大厦3楼</view>
+                 <view class = "h4">联系电话：025-52123255</view>
+             </view>
+             <image class="buldingImg" src="http://m.citgroup.cn/images/company/building.png" width="40%" height="100%" ></image>
+         </view>
+
+        <view style="height:2rem"></view>
+    </view>
+</view>

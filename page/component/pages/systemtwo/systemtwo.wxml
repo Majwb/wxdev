@@ -1,0 +1,53 @@
+<view class="mainBody" style="background:#000 url({{currentPage.bgImg}})no-repeat 0 0;background-size: 100%">
+    <view class="sys-two-banner">
+                <view class="c-sys-icon">
+                    <view class="c-sys-icon-circle"></view>
+                    <view class="icon-img">
+                          <image class="bigLogImge" src = "{{currentPage.logo}}"></image>
+                    </view>
+                </view>
+                <view class="c-sys-title">
+                    <view class = "c-sys-title-chinese">{{currentPage.name}}</view>
+                    <view class="c-sys-title-english">{{currentPage.englishName}}</view>
+                </view>
+    </view>
+
+
+
+    <view class="sys-two-iconList">
+      <block wx:if="{{diff}}">
+            <view class="sys-icon-nav4">
+
+                <view class="nav-title-item" wx:for="{{items}}">
+                    <view class="c-inner-nav-box" bindtap="toThreePage" data-productid = "{{item.primary}}" data-productname = "{{item.psname}}">
+                            <view class="icon-img  icon-feather">
+                                <image class=" logImge" src = "../../../../image/productSys/{{item.logo}}.png"></image>
+                            </view>
+                            <view class="nav-box-words">
+                                <view class = "smallspan">{{item.psname}}</view>
+                            </view>
+                    </view>
+                </view>
+
+            </view>
+      </block>
+      <block wx:else>
+               <view class="sys-icon-nav3">
+
+                
+                <view class="nav-title-item" wx:for="{{items}}">
+                    <view class="c-inner-nav-box" bindtap="toThreePage"  data-productid = "{{item.primary}}" data-productname = "{{item.psname}}">                    
+                            <view class="icon-img icon-feather">
+                              <image class=" logImge" src = "../../../../image/productSys/{{item.logo}}.png"></image>
+                            </view>
+                            <view class="nav-box-words">
+                                <view class = "smallspan">{{item.psname}}</view>
+                            </view>
+                    </view>
+                </view>
+            </view>
+      </block>
+</view>
+</view>
+
+

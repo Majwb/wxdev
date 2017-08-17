@@ -1,0 +1,62 @@
+
+    <view class="product-three">
+        <view class="product-parent-title" id = "two-tile">
+            {{threeName}}
+        </view>
+        <view class="product-three-content">
+            <view class="three-content-title">
+                {{threeTitle}}
+            </view>
+
+            <!--产品概述开始-->
+              <view class="introduction">
+                  <view class="introduction-top clearfix">
+                  
+                        <image class="image" src="http://m.citgroup.cn/images/introduction.png" alt=""></image>
+                  
+                      
+                      <view class="right">
+                          <view class="h5"> 产品概述</view>
+                          <view class="h6">Introduction</view>
+                      </view>
+                  </view>
+                  <view class="three-content-main">
+                     {{threeContentDes}}
+                  </view>
+              </view>
+            <!--end-->
+           
+            <!--产品特点开始  product function-->
+             <block wx:if="{{hasContentChar}}">
+              <view class="introduction">
+                  <view class="introduction-top clearfix">
+                  
+                        <image class="image" src="http://m.citgroup.cn/images/product.png" alt=""></image>
+                  
+                      
+                      <view class="right">
+                          <view class="h5"> 产品特点</view>
+                          <view class="h6">Introduction</view>
+                      </view>
+                  </view>
+                  <view class="three-content-main">
+                     {{threeContentChar}}
+                  </view>
+              </view>
+              </block>
+            <!--end-->
+            <!--start-->
+              <view style="height:3.7rem"></view>
+              <view class= "alter_fixed">
+                  <view class="product-three-item" id = "product-three-item">
+                      <view class="item-list" id = "itemList" style="left:{{left}}px">
+                          <block wx:for = "{{childs}}">
+                            <view class="product-item" bindtap="clickThreeLable" id = "id{{item.primary}}">{{item.psname}}</view>
+                          </block>
+                     </view>
+                  </view>
+              </view>
+              
+            <!--end-->
+        </view>
+    </view>

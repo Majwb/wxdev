@@ -1,0 +1,153 @@
+@import "../../../common/index.wxss";
+.container{
+   height:100%;
+   width:100%;
+}
+
+img{
+ width:100%;
+}
+
+.carousel-main-container {
+}
+
+.c-inner-title {
+  padding-top: 96rpx;
+  width: 100%;
+}
+
+.c-inner-title-t{
+      color:#fff;
+      display: block;
+      font-size:45rpx;
+      text-align:center;
+      font-weight: normal;
+      height:75rpx;
+      line-height:75rpx;
+      padding:0;
+      margin:0;
+}
+
+.c-inner-title-c {
+  font-family: Arial;
+  color: #2a9ee7;
+  font-weight: normal;
+  font-size: 25rpx;
+  text-align: center;
+  height: 25rpx;
+  line-height: 25rpx;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.c-inner-title-line {
+  width: 80%;
+  border-top: 1rpx solid #2a9ee7;
+  margin: 15rpx auto;
+}
+
+
+.c-inner-describe {
+  padding-top: 25rpx;
+  width: 100%;
+  height: 320rpx;
+}
+
+
+.c-inner-describe-p{
+  display: block;
+  margin: 0 auto;
+  text-indent: 2em;
+  width: 80%;
+  font-size: 28rpx;
+  line-height: 42rpx;
+  font-weight: 500;
+  text-align: justify;
+  color: #cccccc;
+}
+
+
+.c-inner-iconNav {
+  width: 100%;
+}
+
+.c-box-list {
+  width: 500rpx;
+  margin: 0 auto;
+}
+
+.c-inner-nav-box {
+  width: 135rpx;
+  height: 157rpx;
+  margin-left: 30rpx;
+  float: left;
+  border-radius: 6rpx;
+  background: rgba(73, 73, 73, 0.1);
+  -webkit-box-shadow: 0 0 6rpx rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 6rpx rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 6rpx rgba(255, 255, 255, 0.4);
+}
+
+.icon-img{
+  width: 100%;
+  display: block;
+  font-size: 24rpx;
+  height: 82rpx;
+  line-height: 82rpx;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+.nav-box-words{
+  padding: 0;
+  margin: 0;
+  font-size: 27rpx;
+ 
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  line-height: 35rpx;
+  text-align: center;
+  color: #e8e8e8;
+}
+
+.c-box-list:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.c-inner-iconNav:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.c-inner-more {
+  width: 100%;
+  color: #009fe7;
+  padding-top: 75rpx;
+  padding-bottom: 30rpx;
+}
+
+.c-inner-more-words{
+  display: block;
+  margin: 0 auto;
+  width:160rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+
+.c-inner-more-dots{
+          display: block;
+          margin:0 auto;
+          width:100rpx;
+          text-align:center;
+          border-bottom:1px dotted #009fe7;
+}
+
+.logImge{
+  width:50rpx;
+  height:50rpx;
+}

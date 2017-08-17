@@ -1,0 +1,127 @@
+.product-three {
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  background-color: #ededed;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  height:100%;
+}
+
+.product-parent-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #3d3d3d;
+  font-weight: 500;
+  color: #fff;
+  font-size: 42rpx;
+  text-align: center;
+}
+
+.product-three-content {
+  padding-bottom: 3rem;
+}
+
+.three-content-title {
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-weight: 500;
+  width: 100%;
+  line-height: 100rpx;
+  height: 100rpx;
+  font-size: 45rpx;
+  color: #2a9ee7;
+  text-align: center;
+}
+
+.introduction {
+  width: 100%;
+  text-align: center;
+  height:100%;
+}
+
+.introduction-top {
+  margin: 0 auto;
+  width: 50%;
+  height: 100%;
+}
+
+.image {
+  margin-top:16rpx;
+  width: 90rpx;
+  height:90rpx;
+  float: left;
+}
+
+.right {
+  text-align: left;
+  width: 68%;
+  margin-left: 30rpx;
+  float: left;
+  font-style: normal;
+}
+
+.h5{
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-size: 45rpx;
+  color: #666;
+}
+
+.h6{
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  font-size: 30rpx;
+  color: #666;
+  margin-top: 0;
+}
+
+.three-content-main {
+  font-size:28rpx;
+  line-height: 45rpx;
+  padding-top: 16rpx;
+  padding-left: 25rpx;
+  padding-right: 40rpx;
+  text-align: justify;
+  text-indent: 2em;
+  color: #666666;
+  padding-bottom: 45rpx;
+}
+
+/*动态数据*/
+.alter_fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: -100%;
+  height: 120rpx;
+}
+
+.product-three-item {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  background: #262626;
+  height: 120rpx;
+  color: #fff;
+}
+
+.item-list {
+  width: 25760rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.3s ease;
+  line-height: 120rpx;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+  display: inline;
+  font-size: 30rpx;
+  border-radius: 60rpx;
+  background: #3c3c3c;
+  color: #63b4e7;
+  text-align: center;
+  margin: 0 24rpx;
+  padding: 15rpx 40rpx;
+}

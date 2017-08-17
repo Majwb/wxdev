@@ -1,0 +1,147 @@
+.mainBody{
+  height:100%;
+}
+.sys-two-banner {
+  position: relative;
+  width: 100%;
+  height: 35%;
+  background-size: 100%;
+  text-align: center;
+  font-family: "Helvetica Neue",Helvetica,sans-serif;
+  color: #fff;
+}
+
+.c-sys-title-chinese {
+  line-height: 80rpx;
+  font-size: 45rpx;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+
+.c-sys-title-english {
+  width: 100%;
+  color: #2a9ee7;
+  font-size: 24rpx;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.c-sys-icon {
+  position: absolute;
+  bottom: 15rpx;
+  left: 50%;
+  width: 160rpx;
+  margin-left: -90rpx;
+  height: 160rpx;
+  background: url(http://m.citgroup.cn/images/home/icon-cz.png) no-repeat 0 0;
+  background-size: 100%;
+  overflow: visible;
+}
+
+.c-sys-icon-circle {
+  display: block;
+  position: absolute;
+  width: 22rpx;
+  height: 22rpx;
+  left: 50%;
+  top: 0;
+  margin-left:-11rpx;
+  margin-top:-9rpx;
+  border-radius: 100%;
+  background: #fff;
+}
+
+.c-sys-title {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+/*二级页表项*/
+.sys-two-iconList {
+  position: relative;
+  width: 100%;
+  margin-top: 4%;
+}
+
+
+
+
+.c-inner-nav-box {
+  position: relative;
+  width: 135rpx;
+  height: 160rpx;
+  margin:0 auto;
+  border-radius: 12rpx;
+  background: rgba(73, 73, 73, 0.5);
+  -webkit-box-shadow: 0 0 12rpx rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 0 12rpx rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 12rpx rgba(255, 255, 255, 0.5);
+}
+.nav-title-item {
+  margin-top: 25rpx;
+  overflow: hidden;
+  float: left;
+  width: 180rpx;
+}
+
+.sys-icon-nav4 {
+  width: 400rpx;
+  margin:0 auto;
+  padding-left:40rpx;
+}
+
+.sys-icon-nav3{
+ width:600rpx;
+ margin:0 auto; 
+ padding-left:30rpx;
+}
+
+.smallspan {
+  display: block;
+  padding:0 10rpx;
+  font-size: 24rpx;
+  height: 60rpx;
+  line-height: 30rpx;
+  text-align: center;
+  color: #fff;
+}
+
+.nav-box-words{
+  height:60rpx;
+  line-height: 30rpx;
+  position: absolute;
+  bottom: 10rpx;
+}
+
+.icon-img{
+  width: 100%;
+  display: block;
+  font-size: 24rpx;
+  height: 82rpx;
+  line-height: 82rpx;
+  text-align: center;
+  color: #e8e8e8;
+}
+.logImge{
+  margin-top:20rpx;
+  width:50rpx;
+  height:50rpx;
+}
+
+
+.bigLogImge{
+  width:80rpx;
+  height:80rpx;
+  position: absolute;
+  top: 50%;
+  margin-top:-40rpx;
+  left:50%;
+  margin-left:-40rpx;
+}

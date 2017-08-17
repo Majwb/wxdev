@@ -1,0 +1,10 @@
+<import src="../../template/productNav.wxml"/>
+
+<swiper class = "container" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+
+   <block wx:for="{{items}}" wx:for-item="itemName">
+    <swiper-item>
+      <template is = "proNav" data="{{...itemName}}"></template>
+    </swiper-item>
+   </block>
+</swiper>

@@ -1,0 +1,192 @@
+.company-main {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #ededed;
+}
+
+.company-top {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.bg-big {
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+
+.company-text {
+ padding:40rpx 48rpx;
+}
+
+.h1 {
+  font: 400 50rpx microsoft Yahei;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+
+.xian {
+  width: 300rpx;
+  border-bottom: 2px solid #fff;
+   margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.paragraph {
+ font-size:28rpx;
+ text-indent:2em;
+ font-family:"黑体";
+ color:#fff;
+ line-height:36rpx;
+}
+
+.us {
+  padding-left: 20rpx;
+  background-color: #ccc;
+  font-size: 50rpx;
+  line-height: 75rpx;
+  font-family: "Microsoft YaHei", Verdana, sans-serif, "SimSun";
+  color: #333;
+}
+
+.span {
+  font-size: 24rpx;
+  font-family: "Microsoft YaHei", Verdana, sans-serif, "SimSun";
+  color: #333;
+  line-height: 54rpx;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.spanBig{
+  font-size: 50rpx;
+  font-family: "Microsoft YaHei", Verdana, sans-serif, "SimSun";
+  vertical-align: bottom;
+  display: inline-block;
+  line-height: 75rpx;
+  padding-right:10rpx;
+}
+
+.JTimg{
+  width:265rpx;
+  height:210rpx;
+  float:left;
+  margin-right:20rpx;
+  vertical-align: bottom;
+}
+
+.paragraph2{
+  color: #444;
+  font: 400 28rpx/42rpx '黑体';
+  padding:12rpx 18rpx;
+  text-indent: 2em;
+  overflow: visible;
+}
+
+.company-aboutUs {
+  width: 100%;
+  height: 100%;
+}
+
+.about{
+  margin-top:30rpx;
+  margin-left: 20rpx;
+}
+
+
+.us {
+ display: inline-block;
+ padding-right: 20rpx;
+}
+
+
+
+
+
+.company-boss {
+  height: 100%;
+  padding: 10rpx 20rpx 10rpx;
+  overflow: hidden;
+}
+
+
+.company-boss .us {
+ 
+  float: right;
+  margin-left: 10rpx;
+}
+
+.jtgg{
+ width:380rpx;
+}
+
+.company-boss h2.us span {
+  font-size: 0.2rem;
+}
+
+
+.company-contactUs {
+   height: 100%;
+   padding: 10rpx 20rpx 10rpx;
+   overflow: hidden;
+}
+
+.picture {
+  height: 100%;
+  padding: 20rpx 10rpx 10rpx;
+  background-color: #dddddd;
+}
+
+
+.address {
+  width:90%;
+  margin: 0 5%;
+  height: 100%;
+  float: left;
+}
+.h3 {
+    font-size:25rpx;
+   font-weight: bold;
+  line-height: 36rpx;
+  color: #222;
+
+}
+.h4 {
+
+  color: #444;
+  font-weight: 600;
+  font-size:24rpx;
+  line-height: 36rpx;
+  margin-bottom: 10rpx;
+  margin-top: 10rpx;
+}
+.tel {
+  height:125rpx;
+  width:520rpx;
+}
+
+.ditu {
+  float:left;
+  margin-left:15rpx;
+  height:120rpx;
+  cursor:pointer;
+  width:40%;
+  margin-top:10rpx;
+}
+
+
+.company-research {
+  height: 100%;
+  background-color: #ddd;
+  margin:25rpx 20rpx;
+}
+
+
+.yfaddress{
+  margin-left:30rpx;
+  margin-top:25rpx;
+}
