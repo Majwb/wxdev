@@ -42,7 +42,7 @@ App({
           })
         },
         fail: function(err) {
-          console.log('wx.login 接口调用失败，将无法正常使用开放接口等服务!', err)
+          console.log('wx.login 接口调用失败，将无法正常使用开放接口等服务', err)
           callback(err)
         }
       })
