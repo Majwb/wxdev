@@ -38,8 +38,13 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="34">
               <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+=======
+            <state relative-caret-position="17">
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -51,7 +56,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="master" />
+=======
+        <entry key="$PROJECT_DIR$" value="bugs" />
+>>>>>>> master
       </map>
     </option>
   </component>
@@ -189,7 +198,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503020884351</updated>
+<<<<<<< HEAD
       <workItem from="1503020885466" duration="1834000" />
+=======
+      <workItem from="1503020885466" duration="1735000" />
+>>>>>>> master
     </task>
     <task id="LOCAL-00001" summary="mesg">
       <created>1503021032108</created>
@@ -216,7 +229,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="1834000" />
+=======
+    <option name="totallyTimeSpent" value="1735000" />
+>>>>>>> master
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,8 +296,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+=======
+        <state relative-caret-position="17">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+>>>>>>> master
           <folding />
         </state>
       </provider>
